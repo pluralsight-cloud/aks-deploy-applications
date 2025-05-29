@@ -546,7 +546,7 @@ alias k=kubectl
 
     ```bash
     argocd app create akswebapp-staging \
-    --repo https://github.com/pluralsight-cloud/aks-deploy-applications/AKSWebApp \
+    --repo https://github.com/pluralsight-cloud/aks-deploy-applications \
     --path Helm/AKSWebApp \
     --dest-server https://kubernetes.default.svc \
     --dest-namespace staging \
